@@ -1,68 +1,44 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #3b0a45, #9d0424);
+    background: linear-gradient(65deg, #531053a4, #940826);
     color: white;
 }
 nav {
-    background-color: #3b0a45;
+    background-color: #661576;
 }
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(45deg, #9d0424, #3b0a45);
+    background: linear-gradient(45deg, #860c26, #67077a);
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.product {
-    background: #3b0a45;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-}
-
-.product img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    height: 150px;
-    object-fit: cover;
-}
-
-.product:hover {
-    transform: scale(1.05);
-}
-
 footer {
     text-align: center;
     padding: 10px 20px;
-    background: #3b0a45;
+    background-color: #661576;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Ensure no conflicts with Bootstrap classes */
 .navbar-brand {
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .nav-link {
+    border-radius: 10px;
     padding: 10px;
     transition: background 0.3s;
 }
 
 .nav-link:hover {
     background: linear-gradient(45deg, #4e115b, #a30729);
+    color: white;
+    font-weight: bold;
 }
 
 /* Responsive */
