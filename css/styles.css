@@ -5,7 +5,7 @@ body {
     color: white;
 }
 nav {
-    background-color: #661576;
+    background-color: #900dab;
 }
 .hero {
     text-align: center;
@@ -19,7 +19,7 @@ nav {
 footer {
     text-align: center;
     padding: 10px 20px;
-    background-color: #661576;
+    background-color: #900dab;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
